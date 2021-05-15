@@ -11,7 +11,7 @@ namespace XDagNetWallet.ExplorerAPI
 {
     public class XDagExplorerClient
     {
-        private static readonly string explorerServerUrl = @"https://explorer.xdag.io/";
+        private static readonly string explorerServerUrl = @"http://146.56.240.230/";
 
         public GetBlockResponse GetBlock(string address)
         {
